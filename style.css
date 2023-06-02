@@ -1,103 +1,71 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #3E3E3E;
-  background-image: url(background.jpg);
+  background-image: url(images/ps.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
   text-align: center;
+  margin: 0;
+  padding: 0;
   display: inline;
-  justify-content: left;
 }
 
-.login {
-  position: absolute;
-  min-width: 30%;
-  max-width: 100%;
-  height: 100%;
-  background: rgb(37, 37, 37, 0.8);
-  box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
-  margin: 0px 0px 100px 0px;
-  padding-top: 200px;
+#form {
+  border: solid 1px #252525;
+  background-color: rgb(37, 37, 37, 0.8);
+  width: 35vw;
+  height: 100vh;
+  justify-content: center;
 }
 
 h2 {
-  margin: 0 0 90px;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-  font-size: 25px;
+  margin: 200px 0 80px 0;
 }
 
 
-.inputs-login {
+#user,
+#password {
   position: relative;
-  margin: 10px 10px 50px 10px;
-  font-weight: bold;
-}
-
-.inputs-login input {
-  min-width: 50%;
-  max-width: 100%;
-  display: block;
-  padding: 10px 10px 10px 10px;
-  margin: 0px 30px 30px 70px;
-  font-size: 16px;
-  color: #fff;
+  width: 60%;
+  height: 35px;
+  margin: 10px 0 30px 0;
   border: none;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background-color: #252525;
+  border-bottom: solid 1px whitesmoke;
+  border-radius: 3px;
+  background-color: rgb(37, 37, 37, 0.9);
+  color: whitesmoke;
+  font-size: 17px;
 }
 
 label {
+  margin: -20px 0 -15px -320px;
   position: absolute;
-  top: 0;
-  left: 0;
-  margin: -20px 30px 50px 70px;
-  font-size: 16px;
   color: #ffff;
   pointer-events: none;
   transition: .5s;
+  font-size: 16px;
 }
 
 input:focus~label,
 input:focus~label {
-  top: -10px;
-  left: 0;
+  margin: -15px 0 -10px -320px;
   font-size: 12px;
 }
 
-#user,
-#password {
-  width: 250px;
-  height: 30px;
-  border-radius: 10px;
-}
-
-.btn {
-  background-color: #252525;
-  color: white;
+#btn {
   font-weight: bold;
-  width: 200px;
-  height: 40px;
-  margin: 10px 10px 10px 0px;
+  width: 40%;
+  height: 30px;
+  margin-top: 50px;
+  background-color: #252525;
+  color: whitesmoke;
 }
 
-.btn:hover {
+#btn:hover {
   background-color: whitesmoke;
-  color: #3E3E3E;
+  color: #252525;
   cursor: pointer;
-}
-
-#math{
-  font-size: 11px;
-  margin-top: 80px;
-}
-
-#carla{
-  font-size: 11px;
 }
 
 
