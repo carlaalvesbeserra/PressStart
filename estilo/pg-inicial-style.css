@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    background-color: rgb(3, 19, 38);
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    background-image: url(../images/bg-pg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+  margin-left: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #037F8C;
+  color: whitesmoke;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20px;
+  height: 400px;
+  padding: 40px 40px 40px 10px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #031326;}
+
+.show {display:block;}
+
+h1{
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 100px 0px;
+}
+
+.images{
+    width: 220px;
+    padding: 0 20px;
+}
+
+.images:hover{
+  width: 230px;
+}
+
+a{
+    color: whitesmoke;
+}
