@@ -9,12 +9,13 @@ body {
   margin: 0;
   padding: 0;
   display: inline;
+  height: 100vh;
 }
 
 #form {
   border: solid 1px rgb(2, 3, 7);
   background-color: rgb(2, 3, 7, 0.5);
-  width: 35vw;
+  width: 500px;
   height: 100vh;
   justify-content: center;
 }
