@@ -1,5 +1,4 @@
 body{
-    height: 100vh;
     background-color: rgb(3, 19, 38);
     margin: 0;
     padding: 0;
@@ -7,6 +6,7 @@ body{
     background-image: url(bg-pg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
 }
 
 nav{
@@ -42,12 +42,13 @@ h1{
   color: whitesmoke;
   font-size: 30px;
   font-weight: bold;
-  margin: 100px 0px;
+  margin: 100px 0px 100px 0px;
 }
 
 .images{
     width: 220px;
-    padding: 0 20px;
+    padding: 0 15px;
+    justify-content: center;
 }
 
 .images:hover{
